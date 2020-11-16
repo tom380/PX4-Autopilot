@@ -40,6 +40,7 @@ set(geometry_files
 	hex_x.toml
 	octa_cox.toml
 	octa_cox_wide.toml
+	octa_cox_all_ccw.toml
 	octa_plus.toml
 	octa_x.toml
 	quad_deadcat.toml

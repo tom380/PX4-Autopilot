@@ -116,6 +116,7 @@ px4_add_romfs_files(
 	# [12000, 12999] Octo Cox
 	12001_octo_cox
 	12002_steadidrone_mavrik
+	12003_octo_cox_all_ccw
 
 	# [13000, 13999] VTOL
 	13000_generic_vtol_standard
