@@ -22,6 +22,29 @@
 
 sh /etc/init.d/rc.mc_defaults
 
+if [ $AUTOCNF = yes ]
+then
+	param set MC_ROLL_P 6.5
+	param set MC_ROLLRATE_P 0.250
+	param set MC_ROLLRATE_I 0.200
+	param set MC_ROLLRATE_D 0.0026
+
+	param set MC_PITCH_P 6.5
+	param set MC_PITCHRATE_P 0.250
+	param set MC_PITCHRATE_I 0.200
+	param set MC_PITCHRATE_D 0.026
+
+	param set MPC_THR_HOVER 58.00
+
+	param set BAT_N_CELLS 4
+
+	param set CBRK_IO_SAFETY 22027
+	param set CBRK_USB_CHK 197848
+fi
+
+# Configure this as octorotor.
+set MAV_TYPE 14
+
 set MIXER octo_cox_all_ccw
 
 set PWM_OUT 12345678
