@@ -34,7 +34,7 @@ then
 	param set MC_PITCHRATE_I 0.200
 	param set MC_PITCHRATE_D 0.026
 
-	param set MPC_THR_HOVER 58.00
+	param set MPC_THR_HOVER 0.58
 
 	param set BAT_N_CELLS 4
 
