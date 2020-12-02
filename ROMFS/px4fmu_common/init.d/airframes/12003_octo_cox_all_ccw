@@ -32,7 +32,7 @@ then
 	param set MC_PITCH_P 6.5
 	param set MC_PITCHRATE_P 0.250
 	param set MC_PITCHRATE_I 0.200
-	param set MC_PITCHRATE_D 0.026
+	param set MC_PITCHRATE_D 0.0026
 
 	param set MPC_THR_HOVER 0.58
 
